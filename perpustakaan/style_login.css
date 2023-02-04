@@ -1,0 +1,36 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(image/perpustakaan.jpg);
+}
+nav {
+    height:70px;
+    background-color: #fce205;
+}
+h3 {
+    padding-top:20px;
+}
+footer {
+    margin-top:107px;
+    height:60px;
+    background-color: #fce205;
+}
+#masukan {
+    height:300px;
+    margin-top:120px;
+}
+form {
+    border-radius: 30px;
+    background-color :#fff;
+    padding:10px 30px 10px 30px;
+}
+.btn-primary {
+    background-color:#fce205;
+    border:none;
+    color:#313131;
+    width: 25%;
+}
+.btn-primary:hover {
+    color:#313131;
+    background-color:#fce205;
+    box-shadow:0px 0px 5px 3px rgba(0, 0, 0, 0.2)
+}

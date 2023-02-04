@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>FORM</title>
+  </head>
+  <body>
+<!-- form -->
+      <div class="container-fluid">
+          <div class="row mt-3">
+              <div class="col text-center">
+                  <h1>DIGITALENT FORM</h1>
+              </div>
+          </div>
+          <div class="row mt-3">
+              <div class="col-md-2"></div>
+              <div class="col-md-8">
+                  <form action="#">
+                    <div class="input-group mb-3 mt-2">
+                      <label for="namadepan">Nama Depan&ensp;</label>
+                      <input type="text" aria-label="First name" id="namadepan" class="form-control">
+                      <label for="namabelakang">&ensp;Nama Belakang&ensp;</label>
+                      <input type="text" aria-label="Last name" id="namabelakang" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="namalengkap" class="form-label">Nama Panggilan</label>
+                        <input type="email" class="form-control" id="namalengkap" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="alamat" class="form-label">Alamat</label>
+                        <textarea class="form-control" placeholder="isikan alamat anda...." id="alamat" rows="3"></textarea>
+                      </div>
+                      <label for="flexRadioDefault1">Jenis Kelamin</label>
+                      <div class="form-check mt-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Laki-Laki
+                        </label>
+                      </div>
+                      <div class="form-check mb-3">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          Perempuan
+                        </label>
+                      </div>
+                      <div class="select mt-2 mb-3">
+                        <label for="">Pilih Favoritmu</label>
+                        <select class="form-select mt-2" aria-label="Default select example">
+                          <option selected>HTML</option>
+                          <option value="1">Javascript</option>
+                          <option value="2">PHP</option>
+                          <option value="3">CSS</option>
+                        </select>
+                      </div>
+                      <button type="submit" class="btn btn-warning">Kirim</button>
+                  </form>
+              </div>
+              <div class="col-md-2"></div>
+          </div>
+      </div>
+<!-- form -->
+
+ <!-- footer -->
+      <footer>
+        <h5>by Lutfi Hermansah</h5>
+      </footer>
+<!-- footer -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

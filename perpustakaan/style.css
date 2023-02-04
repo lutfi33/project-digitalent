@@ -1,0 +1,142 @@
+
+/* header */
+#header .row {
+    background-color: #fce205;
+    height: auto;
+}
+#header .row h3{
+    padding-top: 10px;
+}
+#header .row h6{
+    padding-bottom: 10px;
+}
+#header img {
+    width: 15%;
+    margin-top: 20px;
+    float: right;
+}
+@media only screen and (max-width: 500px) {
+    #header img {
+        width: 40%;
+        text-align: center;
+        float: left;
+        margin-left: 90px;
+    }
+    #header .row h3{
+        background-color: #fce205;
+        height: auto;
+        padding-top: 10px;
+        text-align: center;
+    }
+    #header .row h6{
+        background-color: #fce205;
+        height: auto;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+}
+/* garis */
+#line1 {
+    background-color: #FFC30B;
+    height: 15px;
+}
+#line2 {
+    background-color: #FCF4A3;
+    height: 10px;
+}
+/* content */
+#samping {
+    background-color: #FCF4A3;
+}
+.col-md-10 {
+    background-color: #fff;
+    border-radius: 30px;
+}
+/* sidebar */
+#samping .row {
+    height: auto;
+}
+#samping .col-md-2 {
+    height: auto;
+    background-color: #FCF4A3;
+}
+#sidebar a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: #313131;
+    font-size: 14px;
+}
+#sidebar ul {
+    list-style: none;
+}
+.label-navigasi {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFC30B;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    border-radius: 30px;
+    color: #131313;
+}
+#nav1{
+    margin-top: 10px;
+    border-bottom: 3px solid transparent;
+    transition: 0.5s ease;
+}
+#nav1:hover{
+    border-bottom: 3px solid #FFC30B;
+}
+#nav2{
+    margin-top: 10px;
+    border-bottom: 3px solid transparent;
+    transition: 0.5s ease;
+}
+#nav2:hover{
+    border-bottom: 3px solid #FFC30B;
+}
+#nav3{
+    margin-top: 10px;
+    border-bottom: 3px solid transparent;
+    transition: 0.5s ease;
+}
+#nav3:hover{
+    border-bottom: 3px solid #FFC30B;
+}
+
+.tombol {
+    background-color: #EFFD5F;
+    padding: 10px 15px 10px 15px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+/* CSS ANGGOTA INPUT */
+#label-page2 {
+    border:2px solid #EFFD5F;
+    border-radius:30px;
+    margin-top:30px;
+    background-color: #effd5f;
+    text-align: center;
+}
+#label-page2 h5{
+    margin-top:5px;
+    color:#313131;
+    margin-left:20px;
+}
+.btn-warning {
+    background-color: #FFC30B;
+    padding: 5px 15px 5px 15px;
+    border-radius: 30px;
+    border: none;
+}
+
+/* footer */
+#footer {
+    background-color: #fce205;
+    border-radius: 30px;
+    height: auto;
+    padding-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    text-align:center;
+    clear: both;
+}
+
